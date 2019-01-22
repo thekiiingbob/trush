@@ -19,6 +19,6 @@ module.exports = {
 }
 ```
 
-`npx trush --config path/to/testrail.config.js` will generate the file.
+`npx github:thekiiingbob/trush --config path/to/testrail.config.js` will generate the file.
 
 `--output` if you want to specify the output file, otherwise it'll be `testrail-ui-script.txt`
