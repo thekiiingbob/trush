@@ -1,0 +1,23 @@
+{
+  "name": "testrail-scripter",
+  "version": "1.0.0",
+  "description": "generate testrail uiscript from separate files",
+  "main": "index.js",
+  "bin": {
+    "trsu": "./index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "handlebars": "^4.0.12",
+    "prettier": "^1.16.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
