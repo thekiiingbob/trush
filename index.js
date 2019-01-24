@@ -15,7 +15,7 @@ const optionDefinitions = [
 ]
 
 const options = commandLineArgs(optionDefinitions)
-const configPath = __dirname + '/' + options.config
+const configPath = process.cwd() + '/' + options.config
 const config = require(configPath)
 const script = createTestRailScript(config)
 writeToFile(script, options.output)

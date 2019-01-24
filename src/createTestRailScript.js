@@ -23,10 +23,10 @@ includes: {{includes}}
 excludes: {{excludes}}
 
 js:
-{{js}}
+{{{js}}}
 
 css:
-{{css}}
+{{{css}}}
 `
 
   const template = Handlebars.compile(source)
